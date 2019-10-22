@@ -1,0 +1,18 @@
+body {
+    background-attachment: fixed;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+    background-repeat: no-repeat;
+    /*     background-position: right; */
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+
+/* 
+p {
+    background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+} */

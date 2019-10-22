@@ -1,21 +1,25 @@
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
     content: "";
     display: table;
 }
+
 .cf:after {
     clear: both;
 }
+
 .prva img {
     height: 200px;
     float: right;
 }
-.druga img{
+
+.druga img {
     width: 200px;
     display: block;
     margin: 0 auto;
 }
-.treca img {
 
+.treca img {
     width: 200px;
     height: 200px;
     float: left;

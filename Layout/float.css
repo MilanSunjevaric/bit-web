@@ -1,114 +1,127 @@
-
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
     content: "";
     display: table;
 }
+
 .cf:after {
     clear: both;
 }
+
 .sve {
-min-width: 985px;
-margin-right: 25%;
-margin-left:25%; 
+    min-width: 985px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 ul {
     margin: 4px 0px;
-  padding: 0;
+    padding: 0;
     width: 960px;
     list-style-type: none;
     color: white;
     background-color: #c1392b;
     position: relative;
-
 }
+
 ul li {
-  
     float: right;
     padding: 15px;
-
 }
-.fotka:before, .fotka:after {
+
+.fotka:before,
+.fotka:after {
     content: "";
     display: table;
 }
+
 .fotka:after {
     clear: both;
 }
+
 img {
     max-width: 960px;
     float: left;
 }
 
-.red, .blue:before, .red, .blue:after {
+.red,
+.blue:before,
+.red,
+.blue:after {
     content: "";
     display: table;
 }
-.red, .blue:after {
+
+.red,
+.blue:after {
     clear: both;
 }
+
 .red {
     margin: 15px;
     margin-right: 10px;
     width: 300px;
     height: 200px;
     background-color: #c1392b;
-   float: left;
+    float: left;
 }
+
 .blue {
-margin: 15px;
+    margin: 15px;
     width: 300px;
     height: 200px;
-    background-color:  #2d3e50;
-  float: left;
+    background-color: #2d3e50;
+    float: left;
 }
 
-.linkovi:before, .linkovi:after {
+.linkovi:before,
+.linkovi:after {
     content: "";
     display: table;
-
 }
+
 .linkovi:after {
     clear: both;
 }
 
 .linkovi ul {
-    
     margin: 5px 0px 0px 25px;
     width: 280px;
     float: left;
     background-color: #ffbe00;
     box-sizing: border-box;
-
-
 }
+
 .linkovi ul li {
-float:none;
+    float: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     border-bottom: solid 1px black;
     margin-left: 10px;
     margin-right: 10px;
-    
-
-
-
 }
+
 .linkovi ul .bezbordera {
     border-bottom: 0px;
 }
+
 a {
     border-bottom: 2px black;
     text-decoration: none;
-    color:black;
+    color: black;
     text-align: left
 }
-.paragraf1, .paragraf2:before, .paragraf1, .paragraf2:after {
+
+.paragraf1,
+.paragraf2:before,
+.paragraf1,
+.paragraf2:after {
     content: "";
     display: table;
-
 }
-.paragraf1, .paragraf2:after {
+
+.paragraf1,
+.paragraf2:after {
     clear: both;
 }
 
@@ -118,39 +131,49 @@ a {
     margin: 15px;
     margin-right: 10px;
 }
+
 .paragraf2 {
     margin: 15px;
-  
     width: 300px;
     float: left;
 }
-.yellow, .green:before,  .yellow, .green:after {
+
+.yellow,
+.green:before,
+.yellow,
+.green:after {
     content: "";
     display: table;
 }
-.yellow, .green:after {
+
+.yellow,
+.green:after {
     clear: both;
 }
+
 .yellow {
     margin: 15px;
     margin-right: 10px;
     width: 300px;
     height: 200px;
     background-color: #ffbe00;
-   float: left;
+    float: left;
 }
+
 .green {
     margin: 15px;
     width: 300px;
     height: 200px;
-    background-color:  #27ae61;
-  float: left;
+    background-color: #27ae61;
+    float: left;
 }
 
-.redI:before,  .redI:after {
+.redI:before,
+.redI:after {
     content: "";
     display: table;
 }
+
 .redI:after {
     clear: both;
 }
@@ -159,59 +182,73 @@ a {
     margin: 15px;
     width: 300px;
     height: 200px;
-    background-color:  #c1392b;
-  float: left;
+    background-color: #c1392b;
+    float: left;
 }
-.paragraf3:before, .paragraf3:after{
+
+.paragraf3:before,
+.paragraf3:after {
     content: "";
     display: table;
 }
+
 .paragraf3:after {
     clear: both;
 }
-.paragraf3{
+
+.paragraf3 {
     margin: 15px;
-  
     width: 300px;
     float: left;
 }
-.blueI, .yellowI:before, .blueI, .yellowI:after{
+
+.blueI,
+.yellowI:before,
+.blueI,
+.yellowI:after {
     content: "";
     display: table;
 }
-.blueI,.yellowI:after {
+
+.blueI,
+.yellowI:after {
     clear: both;
 }
+
 .blueI {
     margin: 15px;
     margin-right: 10px;
     width: 300px;
     height: 200px;
     background-color: #2d3e50;
-   float: left;
+    float: left;
 }
-.yellowI{
+
+.yellowI {
     margin: 15px;
     width: 300px;
     height: 200px;
-    background-color:  #ffbe00;
-  float: left;
+    background-color: #ffbe00;
+    float: left;
 }
-.bit:before , .bit:after {
+
+.bit:before,
+.bit:after {
     content: "";
     display: table;
 }
-.bit:after{
+
+.bit:after {
     clear: both;
 }
-.bit{
-    
-  
-    color:white;
+
+.bit {
+    color: white;
     min-width: 100%;
     background-color: #2d3e50;
     float: left;
 }
+
 .bit p {
     margin-left: 25%;
 }
