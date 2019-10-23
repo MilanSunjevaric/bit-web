@@ -1,0 +1,39 @@
+.cf ::before, .cf::after {
+    content: "";
+    display: table;
+}
+.cf::after {
+    clear: both;
+}
+body {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100px;
+    width: 20%;
+    float: left;
+}
+header {
+    padding-left: 30px;
+}
+section {
+    float: left;
+    padding: 5px 0px 5px 30px;
+}
+article {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+
+}
+.border {
+    border-left: solid 1px black;
+}
+.margina {
+    margin-right: 15px;
+}
+
