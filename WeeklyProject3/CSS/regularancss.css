@@ -1,0 +1,85 @@
+.red1 .col {
+    background-color: #283e4f;
+    color: white;
+    text-align: center;
+}
+
+.row .profileimg>img {
+    width: 90%;
+    padding: 41% 0% 0% 0%;
+    margin-left: 48%;
+}
+
+h1 {
+    margin-left: 17%;
+    margin-top: 5%;
+    color: white;
+}
+
+h6 {
+    margin-left: 22%;
+    margin-top: 3%;
+    color: white;
+}
+
+.red5 .ispodzvezdice>p {
+    margin-left: 17%;
+    color: white;
+}
+
+.red2,
+.red3,
+.red4,
+.red5 {
+    background-color: #01bc9c;
+}
+
+#red7>p {
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    padding-top: 8%;
+    margin-left: 36%;
+}
+
+.red7 .kolonazvezda p {
+    margin-left: 22%;
+}
+
+img#fot1 {
+    width: 100%;
+}
+
+img#fot2 {
+    width: 100%;
+}
+
+img#fot3 {
+    width: 100%;
+}
+
+.red8,
+.red9 {
+    margin-left: 15%;
+}
+
+img#fot4 {
+    width: 100%;
+}
+
+img#fot5 {
+    width: 100%;
+}
+
+img#fot6 {
+    width: 100%;
+}
+
+.red9 {
+    margin-top: 2%;
+}
+
+
+/*# sourceMappingURL=main.css.map */
