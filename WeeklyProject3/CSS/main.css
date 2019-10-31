@@ -1,113 +1,194 @@
-                .red1 .col {
-                background-color: #283e4f;
-                color: white;
-                text-align: center;
-            }
-            
-            .row .profileimg>img {
-                width: 90%;
-                padding: 41% 0% 0% 0%;
-                margin-left: 48%;
-            }
-            
-            h1 {
-                margin-left: 17%;
-                margin-top: 5%;
-                color: white;
-            }
-            
-            h6 {
-                margin-left: 22%;
-                margin-top: 3%;
-                color: white;
-            }
-            
-            .red5 .ispodzvezdice>p {
-                margin-left: 17%;
-                color: white;
-            }
-            
-            .red2,
-            .red3,
-            .red4,
-            .red5 {
-                background-color: #01bc9c;
-            }
-            
-            #red7>p {
-                background-color: white;
-                color: black;
-            }
-            
-            h3 {
-                padding-top: 8%;
-                margin-left: 36%;
-            }
-            
-            .red7 .kolonazvezda p {
-                margin-left: 22%;
-            }
-            
-            img#fot1 {
-                width: 100%;
-            }
-            
-            img#fot2 {
-                width: 100%;
-            }
-            
-            img#fot3 {
-                width: 100%;
-            }
-            
-            .red8,
-            .red9 {
-                margin-left: 15%;
-            }
-            
-            img#fot4 {
-                width: 100%;
-            }
-            
-            img#fot5 {
-                width: 100%;
-            }
-            
-            img#fot6 {
-                width: 100%;
-            }
-            
-            .red9 {
-                margin-top: 2%;
-            }
-            
-            div.row.red10 {
-                padding-left: 10%;
-                color: white;
-                text-align: justify;
-                font-size: 0.8em;
-            }
-            
-            button.btn.btn-outline-secondary {
-                margin-left: 31%;
-                padding-bottom: 5%;
-            }
-            
-            #about {
-                color: white;
-                margin-left: 5%;
-            }
-            
-            #redabout {
-                background-color: #01bc9c;
-                color: white;
-            }
-            
-            .red10,
-            .red11 {
-                background-color: #01bc9c;
-            }
-            
-            #contactme {
-                background-color: white;
-                color: black;
+.red1 .col {
+  background-color: #283e4f;
+  color: white;
+  text-align: center; }
+
+.row .profileimg > img {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4%; }
+.row .naslov1 > h1 {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1%;
+  color: white; }
+
+h6 {
+  text-align: center;
+  margin-top: 1%;
+  color: white; }
+
+.red5 .ispodzvezdice > p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 6%; }
+
+.red2,
+.red3,
+.red4,
+.red5 {
+  background-color: #01bc9c; }
+
+#red7 > p {
+  background-color: white;
+  color: black; }
+
+#portfolio {
+  padding-top: 8%;
+  text-align: center; }
+
+.red8 {
+  margin: 0 auto;
+  width: 70%; }
+  .red8 img {
+    padding-bottom: 10%;
+    /* U klasu red8 ubacio sam img i sve ih definisao odjednom */ }
+
+#about {
+  text-align: center; }
+
+.red10 {
+  width: 50%;
+  margin: 0 auto; }
+
+.red11 {
+  margin: 0 auto;
+  display: block;
+  width: 20%;
+  text-align: center; }
+  .red11 button {
+    color: white;
+    border: white solid 1px; }
+
+img #fot1 {
+  width: 20%; }
+
+#star {
+  text-align: center;
+  margin-top: 0%;
+  color: black; }
+
+#star1 {
+  text-align: center;
+  margin-top: 0%;
+  color: white; }
+
+#star2 {
+  text-align: center;
+  margin-top: 0%;
+  color: black; }
+
+#fot1, #fot2, #fot3, #fot4, #fot5, #fot6 {
+  width: 100%; }
+
+.aboutcolor {
+  background-color: #01bc9c;
+  padding-bottom: 6%;
+  color: white; }
+
+.red12 > .forma form {
+  display: block;
+  margin: 0 auto;
+  width: 45%; }
+  .red12 > .forma form label {
+    display: block; }
+  .red12 > .forma form input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid; }
+  .red12 > .forma form textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 0;
+    border-bottom: 1px solid; }
+  .red12 > .forma form button {
+    background-color: #01bc9c;
+    border-radius: 8px;
+    box-shadow: none;
+    border-width: 0;
+    border-style: none;
+    border-color: #01bc9c;
+    color: white; }
+
+.effect {
+  width: 100%;
+  padding: 50px 0px 70px 0px;
+  background-color: #283e4f; }
+  .effect h2 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px; }
+  .effect:nth-child(2) {
+    margin-top: 20px; }
+  .effect:nth-child(2n+1) {
+    background-color: #fff; }
+    .effect:nth-child(2n+1) h2 {
+      color: #283e4f; }
+  .effect:nth-child(2n) a {
+    color: #fff;
+    border-color: #fff; }
+  .effect .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; }
+
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/ }
+  .effect a {
+    text-decoration: none !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: #283e4f;
+    border: 2px solid #283e4f; }
+    .effect a i {
+      position: relative;
+      z-index: 3; }
+    .effect a:last-child {
+      margin-right: 0px; }
+    .effect a:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    .effect a i {
+      display: inline-block;
+      vertical-align: middle; }
+
+/* lavinia effect */
+.effect.lavinia a {
+  transition: border-top-color 0.2s linear 0s, border-right-color 0.2s linear 0.1s, border-bottom-color 0.2s linear 0.2s, border-left-color 0.2s linear 0.3s;
+  overflow: visible; }
+  .effect.lavinia a:hover {
+    border-color: rgba(255, 255, 255, 0); }
+  .effect.lavinia a:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -2px;
+    left: -2px;
+    border: 2px dashed #fff;
+    position: absolute;
+    border-radius: 50%; }
+
+.red13 {
+  background-color: #283e4f;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
