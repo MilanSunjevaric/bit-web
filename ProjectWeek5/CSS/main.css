@@ -1,0 +1,144 @@
+.red1 {
+  background-image: url(../img/main-banner.jpg);
+  color: white; }
+
+.red1 span {
+  color: #f7600f; }
+
+.firstline {
+  text-align: center;
+  padding-top: 40px; }
+
+.red1 h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 70px;
+  font-weight: bolder; }
+
+.red1 p {
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  display: block;
+  margin: 0 auto; }
+
+.button {
+  text-align: center; }
+
+button {
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: transparent;
+  color: white;
+  border: solid 1px;
+  transition: all .5s ease; }
+
+button:hover {
+  background-color: #f7600f;
+  border: none; }
+
+.red1 img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 35px; }
+
+.red2 {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+.red2 div .pimg {
+  border: solid 1px black;
+  padding: 33px;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  border-color: grey;
+  position: relative;
+  left: 60px; }
+
+.web {
+  padding-top: 8px; }
+
+/* .red2 div .pimg {
+    border: solid 1px black;
+    padding: 2px;
+    border-radius: 100%;
+    height: 163px;
+    width: 169px;
+    text-align: center; */
+.red3 {
+  background-image: url(../img/newsletter-background.jpg); }
+
+.red3 div > input {
+  width: 35%;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 0 auto;
+  border: none;
+  padding-left: 25px; }
+
+.subscribe {
+  text-align: center;
+  padding: 100px; }
+
+.subbutton {
+  margin-top: 0;
+  width: 16%; }
+
+.red4 {
+  width: 62%;
+  margin: 0 auto; }
+
+.red4 div h2 {
+  padding-top: 86px;
+  padding-bottom: 20px;
+  text-align: center; }
+  .red4 div h2 span {
+    color: #f7600f; }
+
+.red4 div > p {
+  text-align: center;
+  padding-bottom: 60px; }
+
+.red4 div > img {
+  width: 100%;
+  padding-bottom: 7%;
+  margin: 4px; }
+
+.red4 div > button {
+  text-align: center;
+  color: #61646d;
+  border-color: #61646d;
+  margin-bottom: 50px; }
+
+.showmore {
+  text-align: center; }
+
+.red5 {
+  background-image: url(../img/testimonials-background.jpg);
+  color: white; }
+
+.blondyguy {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .blondyguy h5 {
+    font-style: italic;
+    padding: 30px; }
+  .blondyguy p {
+    padding-top: 20px;
+    font-style: normal; }
+
+.arrowleft > img {
+  margin: 54% 0 auto 100%; }
+
+.arrowright > img {
+  margin: 54% 100% auto 0; }
+
+/*# sourceMappingURL=main.css.map */
