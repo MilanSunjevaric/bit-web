@@ -1,0 +1,17 @@
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+    text-transform: uppercase;
+}
+.grey {
+    background-color: grey;
+    text-transform: uppercase;
+}
+.active {
+    background-color: aquamarine;
+}
