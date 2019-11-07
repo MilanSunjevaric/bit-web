@@ -1,7 +1,4 @@
-
-
-/*
-function setColor() {
+/* function setColor() {
     var boja = document.querySelectorAll('ul')[1];
     boja.className = 'red';
 }
@@ -29,22 +26,22 @@ function setLast() {
         }
     }
 }
-setLast();
+setLast(); */
 
 
-function setOne() {
+/* function setOne() {
     var one = document.querySelector('.active');
 
     one.className = '';
 
     var two = document.querySelectorAll('div')[1];
     var smt = two.firstElementChild.firstElementChild;
-    smt.className = 'active';
-
+    smt.className = 'grey';
 
 }
-setOne();
-*/
+
+setOne(); */
+
 
 
 
@@ -57,19 +54,17 @@ Create a function that takes text from one of the <li> elements and presents it 
 Create one more function.
 The function should take some text as an argument.
 The function should select the last <li> element in the list and replace its text with text passed as the function argument.
-
  */
 
-function takeText() {
-    var element = document.querySelector('section');
-    var element01 = element.firstElementChild.firstElementChild;
 
 
 
+function takeASomeTxt(poruka) {
 
+    var elmnt = document.querySelector('ul');
 
+    var ende = elmnt.lastChild.textContent = poruka;
 
-    takeText();
+}
 
-
-
+takeASomeText('Prosledjena poruka');
