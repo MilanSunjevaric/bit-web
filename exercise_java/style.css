@@ -19,3 +19,6 @@
 .active {
     background-color: aquamarine;
 }
+.borderClr {
+    border: solid 2px red;
+}
