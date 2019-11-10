@@ -1,0 +1,74 @@
+/* vezba 1 */
+
+
+/* .r1 {
+    background-color: #2d3e4f;
+    height: 300px;
+    width:100%;
+    text-align: center;
+}
+
+input.s1 {
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+    width:210px;
+    height:30px;
+    margin-top: 50px;
+}
+
+.color1 {
+    background-color:white; 
+    height: 300px;
+    width:100%;
+    text-align: center;
+}
+input.s2 {
+  
+    color:black;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 0px;
+    width:210px;
+    height:30px;
+    margin-top: 10px;
+} */
+
+
+/* vezba 2  */
+
+body {
+    text-align: center;
+}
+
+.chat1 {
+    max-width: 960px;
+    height: 800px;
+    background-color: #d0d4d4;
+    margin: 10px auto;
+}
+
+.txt {
+    width: 700px;
+    border-radius: 5px;
+    margin: 20px 5px 20px 10px;
+}
+
+.send {
+    width: 210px;
+    border-radius: 5px;
+    margin: 20px 5px 20px 10px;
+    color: white;
+    background-color: red;
+    border: 0;
+}
+
+span {
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: 5%;
+    padding: 1%;
+    background-color: #616161;
+}
