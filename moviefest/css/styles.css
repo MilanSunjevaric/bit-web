@@ -1,0 +1,44 @@
+fieldset{
+    margin:0 auto;
+    width: 30%;
+    font-size: 1.2em;
+}
+label {
+    display: block;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+select{
+    margin: 10px 0px;
+    display: block;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border: none;
+}
+input{
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.button{
+    background-color: #4caf4f;
+    width: 100%;
+    padding: 11px 0px 23px 0px;
+    border:none;
+    border-radius: 7px;
+    color: white;
+}
+.list{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.totalDuration{
+    font-size: 12px;
+    text-align: right;
+}
+.error {
+    font-size: 14px;
+    color:red
+}
